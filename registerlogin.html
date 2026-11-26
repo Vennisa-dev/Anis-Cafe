@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+	<head>
+	<meta charset = "UTF-8">
+	<meta name ="viewport" content = "width=device-width , initial-scale = 1.0">
+	<meta name = "description" content =" An online cafe">
+	<link rel="stylesheet" href = "stylesheet.css">
+	<title> Ani's Cafe </title>
+
+	</head>
+	<body>
+	<header>
+	<div class = "title">
+	
+		<img src = "IMAGES/coffee.png" alt = "coffee logo">
+		<div>
+		<h1 class = "logo"> Ani's Cafe </h1>
+		<p><br><b><i> A Little Cup of Happiness</i></b> </p>
+		</div>
+	</div>
+	<h2 class = "home" ><img src ="IMAGES/registerlogo1.png" alt = " register login logo"> <br> Register / Login </h2>
+	
+	<div class= "nav">
+	
+	<ul>
+	
+		<li>
+		<h2> 
+		<a href = "index.html">
+		<img src ="IMAGES/homelogo1.png" alt= "home logo"> Home </a></h2>
+		</li>
+		
+		<li>
+		<h2>
+		<a href = "aboutus.html">
+		<img src ="IMAGES/aboutuslogo.png" alt= "about us logo">About Us </a></h2>
+		</li>
+		
+		<li>
+		<h2>
+		<a href = "order.html"> 
+		<img src ="IMAGES/orderlogo1.png" alt= "order logo">Order </a></h2>
+		</li>
+		
+		<li>
+		<h2>
+		<a href = "menu.html"> 
+		<img src ="IMAGES/menulogo1.png" alt= "menu logo">Menu </a></h2>
+		</li>
+		
+		<li> 
+		<h2>
+		<a href = "reviews.html"> 
+		<img src ="IMAGES/reviewslogo1.png" alt= "reviews logo">Reviews </a></h2>
+		</li>
+		
+		<li>
+		<h2>
+		<a href = "contactus.html"> 
+		<img src ="IMAGES/contactuslogo1.png" alt= "contact us logo">Contact Us </a></h2>
+		</li>
+		
+	</ul>
+	
+	</div>
+	</header>
+	<main>
+			<div >
+				<form class ="reglog" action ="userinfo.php" method ="post">
+					<fieldset class = "register">
+						<legend>📜 Register 📜 </legend>
+						<h3> Create your account! </h3>
+						
+						<label for = "name">Full Name</label>
+						<input type = "text" id ="name" name = "name" required>
+						
+						<label for = "regmail"> Email Address </label>
+						<input type = "email" id ="regmail" name ="regmail" required>
+						
+						<label for = "crpassword"><br> Create Password </label>
+						<input type = "password" id ="crpassword" name ="crpassword" required> 
+						
+						<label for = "copassword"> Confirm Password </label>
+						<input type ="password" id = "copassword" name = "copassword" required>
+						
+						<button type = "submit" onclick = "alert ('You are registered')">Register</button>
+						<button type = "reset"> Clear </button>
+					</fieldset>
+					<fieldset class = "login">
+						<legend> 🖋️ Login 🖋️</legend>
+						<h3> Sign in to your account </h3>
+						<label for = "logmail">Email Address </label>
+						<input type = "email" id = "logmail" name = "logmail" required>
+						
+						<label for = "logpassword"> Password </label>
+						<input type = "password" id = "logpassword" name = "logpassword" required>
+						
+						<label for = "remember"><br>Remember Me</label>
+						<input type = "checkbox" id = "remember" name = "remember"> 
+						
+						<br><button type = "submit" onclick = "alert ('You are logged in')">Login</button>
+						<button type = "reset"> Clear </button>
+					</fieldset>
+				</form>
+			</div>
+	</main>
+	<footer>
+		<p> &copy; 2026 Ani's Cafe. All Rights Reserved. </p>
+		<p> A Little Cup of Happiness </p>
+		<img src = "IMAGES/coffee.png" alt = "coffee logo">
+		<p> Contact Us: Email: anicafe@gmail.com <br> No. 1(868)334-6776</p>
+	</footer>
+	</body>
+	</html>
